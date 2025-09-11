@@ -55,6 +55,17 @@
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
 }
 
+/* レスポンシブ対応のテキストシャドウ */
+@media (max-width: 640px) {
+  .text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  }
+}
+
 /* スピンアニメーション */
 .animate-spin {
   animation: spin 1s linear infinite;
