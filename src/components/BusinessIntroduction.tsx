@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Code, Smartphone, Globe, Zap } from 'lucide-react';
+import { Code, Globe, Server } from 'lucide-react';
 
 const BusinessIntroduction: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -37,13 +37,6 @@ const BusinessIntroduction: React.FC = () => {
       accent: "from-red-600 to-red-800"
     },
     {
-      icon: <Smartphone className="w-16 h-16 text-red-600" />,
-      title: "モバイルアプリ開発",
-      description: "iOS・Android向けの革新的なモバイルアプリケーションの開発",
-      image: "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      accent: "from-gray-800 to-black"
-    },
-    {
       icon: <Globe className="w-16 h-16 text-red-600" />,
       title: "デジタル戦略コンサル",
       description: "企業のデジタル変革を支援する戦略的コンサルティング",
@@ -51,10 +44,10 @@ const BusinessIntroduction: React.FC = () => {
       accent: "from-red-600 to-red-800"
     },
     {
-      icon: <Zap className="w-16 h-16 text-red-600" />,
-      title: "AI・機械学習",
-      description: "人工知能と機械学習技術を活用した革新的なソリューション",
-      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      icon: <Server className="w-16 h-16 text-red-600" />,
+      title: "ネットワーク・インフラ構築",
+      description: "安全で高性能なネットワークインフラの設計・構築・運用",
+      image: "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       accent: "from-gray-800 to-black"
     }
   ];
@@ -73,7 +66,7 @@ const BusinessIntroduction: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {businesses.map((business, index) => (
             <div
               key={index}
