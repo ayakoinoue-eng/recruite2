@@ -31,8 +31,8 @@ const BusinessIntroduction: React.FC = () => {
   const businesses = [
     {
       icon: <Code className="w-16 h-16 text-red-600" />,
-      title: "Web開発事業",
-      description: "最新のテクノロジーを駆使したWebシステムの企画・開発・運用",
+      title: "システム開発事業",
+      description: "最新のテクノロジーを駆使したシステムの企画・開発・運用",
       image: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       accent: "from-red-600 to-red-800"
     },
