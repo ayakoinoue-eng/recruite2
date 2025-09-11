@@ -30,28 +30,40 @@ const StaffVoices: React.FC = () => {
 
   const staffMembers = [
     {
-      name: "佐藤 美咲",
-      position: "Webエンジニア（2022年入社）",
-      image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      comment: "入社当初は不安もありましたが、先輩方のサポートが手厚く、自分のペースで成長できました。今では大きなプロジェクトも任せてもらえるようになり、とてもやりがいを感じています。"
-    },
-    {
-      name: "山田 健太",
-      position: "デザイナー（2021年入社）",
+      name: "田中 健太",
+      position: "システム営業（2022年入社）",
       image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      comment: "クリエイティブな環境で、自分のアイデアを形にできることが最高です。チーム全体でユーザーのことを第一に考える文化があり、デザイナーとしてとても成長できています。"
+      details: {
+        background: "大学では経営学部でマーケティングを専攻し、テニス部に所属していました。アルバイトは家電量販店で接客を経験。人と話すことが好きで、技術を通じてお客様の課題解決ができる仕事に魅力を感じ、この会社を選びました。",
+        work: "現在は既存顧客のフォローアップと新規開拓を担当しています。朝は社内ミーティングから始まり、午前中は顧客訪問、午後は提案書作成や見積もり作業を行っています。初めて大型案件を受注できた時は本当に嬉しく、お客様から「ありがとう」と言われる瞬間にやりがいを感じます。",
+        atmosphere: "先輩方は技術的な質問にも丁寧に答えてくれ、お客様との商談にも同行してサポートしてくれます。営業とエンジニアの垣根が低く、チーム一丸となってプロジェクトに取り組む雰囲気があります。新人研修では他部署との交流もあり、会社全体の一体感を感じました。",
+        growth: "入社当初は技術的な知識が不足していましたが、社内勉強会や資格取得支援のおかげで、今ではお客様と技術的な話もできるようになりました。将来はマネージャーとして後輩を指導し、より大きなプロジェクトを統括したいと考えています。",
+        message: "営業職でも技術を学べる環境があるので、文系出身でも安心してください。学生時代は様々な人とのコミュニケーションを大切にし、相手の立場に立って考える経験を積んでおくと良いと思います。"
+      }
     },
     {
-      name: "田中 愛子",
-      position: "営業（2023年入社）",
-      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      comment: "お客様の課題を技術で解決できた時の喜びは格別です。営業といっても技術的な知識も身につけられ、エンジニアチームとの連携も取りやすい環境です。"
+      name: "佐藤 美咲",
+      position: "システムエンジニア（2021年入社）",
+      image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      details: {
+        background: "情報工学部でソフトウェア開発を学び、研究室ではWebアプリケーションの開発に取り組んでいました。アルバイトはプログラミング塾の講師をしていました。技術力を活かして社会に貢献できる仕事がしたく、成長環境が整ったこの会社を選びました。",
+        work: "主にWebシステムの設計・開発を担当しています。朝は前日の進捗確認、午前中は設計書作成やコーディング、午後はテストやお客様との打ち合わせを行います。初めて一人で担当したシステムが無事稼働した時の達成感は忘れられません。お客様の業務効率が向上したと聞いた時に大きなやりがいを感じます。",
+        atmosphere: "先輩エンジニアは技術的な相談に親身になって答えてくれ、コードレビューも丁寧に行ってくれます。チーム内での情報共有が活発で、困った時はすぐに助けを求められる環境です。技術勉強会や外部セミナーへの参加も推奨されており、学習意欲の高いメンバーが多いです。",
+        growth: "入社時は基本的なプログラミングスキルしかありませんでしたが、今では要件定義から運用まで一連の開発工程を担当できるようになりました。今後はプロジェクトリーダーとして、技術面だけでなくマネジメントスキルも身につけたいと思っています。",
+        message: "技術は入社後でも十分学べるので、学生時代は基礎をしっかり固めることが大切です。また、チーム開発の経験があると入社後に役立ちます。失敗を恐れず、積極的にチャレンジする姿勢を持ち続けてください。"
+      }
     },
     {
-      name: "鈴木 大輔",
-      position: "マーケティング（2022年入社）",
+      name: "山田 拓也",
+      position: "プログラマー（2023年入社）",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      comment: "データドリブンなマーケティングを実践できる環境が整っています。新しい施策にも積極的にチャレンジできるため、スキルアップが実感できます。"
+      details: {
+        background: "コンピュータサイエンス学科でアルゴリズムやデータ構造を学び、個人でWebアプリやゲームを開発していました。プログラミングコンテストにも参加していました。技術力を磨きながら実際のサービス開発に携われる環境を求めて、この会社を選びました。",
+        work: "主にバックエンドの開発を担当し、データベース設計やAPI開発を行っています。朝はチームでの進捗共有、午前中はコーディング、午後はテストやバグ修正を中心に作業しています。初めて自分が書いたコードが本番環境で動いた時は感動しました。複雑な処理を効率的に実装できた時に達成感を感じます。",
+        atmosphere: "先輩プログラマーは技術的な質問に対して具体的なコード例を示しながら教えてくれます。ペアプログラミングの機会も多く、実践的なスキルを身につけられます。社内ハッカソンや技術LTなど、エンジニア同士の交流イベントも充実しており、刺激的な環境です。",
+        growth: "入社当初は個人開発の経験しかありませんでしたが、今ではチーム開発でのコードレビューやテスト駆動開発などの手法を身につけました。将来は技術的なスペシャリストとして、新しい技術の導入や技術選定に関わりたいと考えています。",
+        message: "プログラミングが好きなら、きっと楽しく働けると思います。学生時代は個人プロジェクトでも良いので、最後まで作り上げる経験を積んでください。また、GitHubなどで自分のコードを公開しておくと、面接でのアピールにもなります。"
+      }
     }
   ];
 
@@ -69,11 +81,11 @@ const StaffVoices: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {staffMembers.map((member, index) => (
             <div
               key={index}
-              className="group bg-gradient-to-br from-gray-50 to-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100"
+              className="group bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100"
             >
               <div className="relative mb-6">
                 <img 
@@ -89,9 +101,33 @@ const StaffVoices: React.FC = () => {
               <div className="text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-1">{member.name}</h3>
                 <p className="text-sm text-red-600 font-medium mb-4">{member.position}</p>
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  {member.comment}
-                </p>
+                
+                <div className="text-left space-y-4 text-sm text-gray-700 leading-relaxed">
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">入社前について</h4>
+                    <p>{member.details.background}</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">現在の仕事</h4>
+                    <p>{member.details.work}</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">会社の雰囲気</h4>
+                    <p>{member.details.atmosphere}</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">成長・キャリア</h4>
+                    <p>{member.details.growth}</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">就活生へのメッセージ</h4>
+                    <p>{member.details.message}</p>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
