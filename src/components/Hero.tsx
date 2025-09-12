@@ -19,19 +19,19 @@ const Hero: React.FC = () => {
         {/* デスクトップ用背景 */}
         <div
           className="hidden md:block absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)' }}
         ></div>
         
         {/* タブレット用背景 */}
         <div
           className="hidden sm:block md:hidden absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1024&h=768&fit=crop)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1024&h=768&fit=crop)' }}
         ></div>
         
         {/* モバイル用背景 */}
         <div
           className="block sm:hidden absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=768&h=1024&fit=crop)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=768&h=1024&fit=crop)' }}
         ></div>
       </div>
 
