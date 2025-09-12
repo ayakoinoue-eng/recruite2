@@ -19,24 +19,24 @@ const Hero: React.FC = () => {
         {/* デスクトップ用背景 */}
         <div
           className="hidden md:block absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)' }}
         ></div>
         
         {/* タブレット用背景 */}
         <div
           className="hidden sm:block md:hidden absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1024&h=768&fit=crop)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1024&h=768&fit=crop)' }}
         ></div>
         
         {/* モバイル用背景 */}
         <div
           className="block sm:hidden absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=768&h=1024&fit=crop)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=768&h=1024&fit=crop)' }}
         ></div>
       </div>
 
       {/* グラデーションオーバーレイ */}
-      <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/50 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/60 via-blue-800/40 to-black/60 z-10"></div>
       {/* メインテキストコンテンツ */}
       <div className="relative z-20 text-center px-4 sm:px-6 md:px-8 lg:px-12 max-w-6xl mx-auto fade-in">
         <h1 className="font-bold mb-8 sm:mb-12 leading-tight">
