@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
 import BusinessIntroduction from './components/BusinessIntroduction';
 import StaffVoices from './components/StaffVoices';
+import RecruitmentRequirements from './components/RecruitmentRequirements';
 import ApplicationForm from './components/ApplicationForm';
 import Footer from './components/Footer';
 import './styles/animations.css';
@@ -17,6 +18,7 @@ function App() {
         <AboutUs />
         <BusinessIntroduction />
         <StaffVoices />
+        <RecruitmentRequirements />
         <ApplicationForm />
         <Footer />
       </div>
