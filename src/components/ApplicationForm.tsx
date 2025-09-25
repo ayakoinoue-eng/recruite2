@@ -58,7 +58,6 @@ const ApplicationForm: React.FC = () => {
 
   if (isSubmitted) {
     return (
-      <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-red-50 to-gray-50 fade-in">
       <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-blue-50 to-gray-50 fade-in">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <div className="bg-white rounded-3xl p-12 shadow-xl">
@@ -84,7 +83,6 @@ const ApplicationForm: React.FC = () => {
   }
 
   return (
-    <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-red-50 to-gray-50 fade-in">
     <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-blue-50 to-gray-50 fade-in">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
