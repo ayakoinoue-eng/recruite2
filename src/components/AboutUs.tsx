@@ -33,7 +33,7 @@ const AboutUs: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            About <span className="text-red-600">Us</span>
+            About <span className="text-blue-600">Us</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             私たちは、一人ひとりの個性と想いを大切にしながら、
@@ -43,7 +43,7 @@ const AboutUs: React.FC = () => {
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-            <Target className="w-12 h-12 text-red-600 mx-auto mb-4" />
+            <Target className="w-12 h-12 text-blue-600 mx-auto mb-4" />
             <h3 className="text-xl font-bold text-gray-900 mb-3">企業理念</h3>
             <p className="text-gray-600">
               一人ひとりの「想い」を大切にし、その力を社会の発展につなげていく
@@ -51,7 +51,7 @@ const AboutUs: React.FC = () => {
           </div>
           
           <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-            <Users className="w-12 h-12 text-red-600 mx-auto mb-4" />
+            <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
             <h3 className="text-xl font-bold text-gray-900 mb-3">価値観</h3>
             <p className="text-gray-600">
               多様な背景を持つメンバーが協力し、新しい価値を創造し続ける
@@ -59,7 +59,7 @@ const AboutUs: React.FC = () => {
           </div>
           
           <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-            <Lightbulb className="w-12 h-12 text-red-600 mx-auto mb-4" />
+            <Lightbulb className="w-12 h-12 text-blue-600 mx-auto mb-4" />
             <h3 className="text-xl font-bold text-gray-900 mb-3">ビジョン</h3>
             <p className="text-gray-600">
               テクノロジーの力で、人々の生活をより豊かで便利にする

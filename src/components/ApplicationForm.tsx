@@ -72,7 +72,7 @@ const ApplicationForm: React.FC = () => {
             </p>
             <button
               onClick={() => setIsSubmitted(false)}
-              className="text-red-600 hover:text-red-700 font-semibold transition-colors"
+              className="text-blue-600 hover:text-blue-700 font-semibold transition-colors"
             >
               新しいエントリーを送信する
             </button>
@@ -87,7 +87,7 @@ const ApplicationForm: React.FC = () => {
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            応募<span className="text-red-600">方法</span>
+            応募<span className="text-blue-600">方法</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             まずはお気軽にエントリーください。皆さんとお会いできることを楽しみにしています
@@ -110,6 +110,7 @@ const ApplicationForm: React.FC = () => {
                   onChange={handleInputChange}
                   required
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-gray-50 focus:bg-white"
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-gray-50 focus:bg-white"
                   placeholder="山田 太郎"
                 />
               </div>
@@ -129,6 +130,7 @@ const ApplicationForm: React.FC = () => {
                   onChange={handleInputChange}
                   required
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-gray-50 focus:bg-white"
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-gray-50 focus:bg-white"
                   placeholder="example@email.com"
                 />
               </div>
@@ -148,6 +150,7 @@ const ApplicationForm: React.FC = () => {
                   required
                   rows={5}
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-gray-50 focus:bg-white resize-none"
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-gray-50 focus:bg-white resize-none"
                   placeholder="なぜ当社を志望されたのか、あなたの想いをお聞かせください..."
                 />
               </div>
@@ -157,7 +160,7 @@ const ApplicationForm: React.FC = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:transform-none"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:transform-none"
               >
                 {isSubmitting ? (
                   <div className="flex items-center">

@@ -74,7 +74,7 @@ const StaffVoices: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            先輩スタッフの<span className="text-red-600">声</span>
+            先輩スタッフの<span className="text-blue-600">声</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             実際に働いているメンバーの生の声をお届けします
@@ -93,14 +93,14 @@ const StaffVoices: React.FC = () => {
                   alt={member.name}
                   className="w-24 h-24 rounded-full mx-auto object-cover shadow-lg group-hover:shadow-xl transition-shadow"
                 />
-                <div className="absolute -top-2 -right-2 bg-red-500 text-white p-2 rounded-full">
+                <div className="absolute -top-2 -right-2 bg-blue-500 text-white p-2 rounded-full">
                   <Quote size={16} />
                 </div>
               </div>
               
               <div className="text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-1">{member.name}</h3>
-                <p className="text-sm text-red-600 font-medium mb-4">{member.position}</p>
+                <p className="text-sm text-blue-600 font-medium mb-4">{member.position}</p>
                 
                 <div className="text-left space-y-4 text-sm text-gray-700 leading-relaxed">
                   <div>

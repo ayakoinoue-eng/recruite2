@@ -10,7 +10,7 @@ export default {
         sans: ['"Noto Sans JP"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
-        red: {
+        blue: {
           50: '#fef2f2',
           100: '#fee2e2',
           200: '#fecaca',

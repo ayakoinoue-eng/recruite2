@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
         
         <button
           onClick={scrollToApplication}
-          className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl mb-8 backdrop-blur-sm border border-white/20"
+          className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl mb-8 backdrop-blur-sm border border-white/20"
         >
           エントリーはこちら
         </button>

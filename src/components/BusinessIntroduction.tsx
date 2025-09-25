@@ -30,21 +30,21 @@ const BusinessIntroduction: React.FC = () => {
 
   const businesses = [
     {
-      icon: <Code className="w-16 h-16 text-red-600" />,
+      icon: <Code className="w-16 h-16 text-blue-600" />,
       title: "システム開発事業",
       description: "最新のテクノロジーを駆使したシステムの企画・開発・運用",
       image: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      accent: "from-red-600 to-red-800"
+      accent: "from-blue-600 to-blue-800"
     },
     {
-      icon: <Globe className="w-16 h-16 text-red-600" />,
+      icon: <Globe className="w-16 h-16 text-blue-600" />,
       title: "デジタル戦略コンサル",
       description: "企業のデジタル変革を支援する戦略的コンサルティング",
       image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      accent: "from-red-600 to-red-800"
+      accent: "from-blue-600 to-blue-800"
     },
     {
-      icon: <Server className="w-16 h-16 text-red-600" />,
+      icon: <Server className="w-16 h-16 text-blue-600" />,
       title: "ネットワーク・インフラ構築",
       description: "安全で高性能なネットワークインフラの設計・構築・運用",
       image: "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
@@ -59,7 +59,7 @@ const BusinessIntroduction: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            事業<span className="text-red-500">紹介</span>
+            事業<span className="text-blue-400">紹介</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             私たちが手がける革新的なビジネス領域
