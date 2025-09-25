@@ -59,6 +59,7 @@ const ApplicationForm: React.FC = () => {
   if (isSubmitted) {
     return (
       <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-red-50 to-gray-50 fade-in">
+      <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-blue-50 to-gray-50 fade-in">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <div className="bg-white rounded-3xl p-12 shadow-xl">
             <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -84,6 +85,7 @@ const ApplicationForm: React.FC = () => {
 
   return (
     <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-red-50 to-gray-50 fade-in">
+    <section id="application" ref={sectionRef} className="py-20 bg-gradient-to-br from-blue-50 to-gray-50 fade-in">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -109,7 +111,6 @@ const ApplicationForm: React.FC = () => {
                   value={formData.name}
                   onChange={handleInputChange}
                   required
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-gray-50 focus:bg-white"
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-gray-50 focus:bg-white"
                   placeholder="山田 太郎"
                 />
@@ -129,7 +130,6 @@ const ApplicationForm: React.FC = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-gray-50 focus:bg-white"
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-gray-50 focus:bg-white"
                   placeholder="example@email.com"
                 />
@@ -149,7 +149,6 @@ const ApplicationForm: React.FC = () => {
                   onChange={handleInputChange}
                   required
                   rows={5}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-gray-50 focus:bg-white resize-none"
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-gray-50 focus:bg-white resize-none"
                   placeholder="なぜ当社を志望されたのか、あなたの想いをお聞かせください..."
                 />
