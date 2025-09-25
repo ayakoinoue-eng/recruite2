@@ -35,7 +35,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">採用情報</h4>
             <div className="space-y-3">
-              <a href="#" className="block text-gray-300 hover:text-red-400 transition-colors">
               <a href="#" className="block text-gray-300 hover:text-blue-400 transition-colors">
                 新卒採用要項
               </a>
@@ -61,5 +60,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-  )
-}
